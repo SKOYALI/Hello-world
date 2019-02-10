@@ -119,4 +119,13 @@
   </build>
 </profile>
 </profiles>
+<distributionManagement>
+<repository>
+            <uniqueVersion>false</uniqueVersion>
+          <id>cloudhub</id>
+          <name>Cloud Hub</name>
+          <url>https://anypoint.mulesoft.com/cloudhub/</url>
+          <layout>default</layout>
+        </repository>
+    </distributionManagement>
 </project>
